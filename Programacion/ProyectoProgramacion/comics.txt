@@ -1,0 +1,56 @@
+Datos de consulta:
+
+id: 3
+título: The Boys: Dear Becky
+autor: Garth Ennis
+editorial: Dynamite Entertainment
+año publicación: 2020
+género: Superhéroe
+precio: 18.99
+stock: 20
+
+id: 2
+título: The Boys: Herogasm
+autor: Garth Ennis
+editorial: Dynamite Entertainment
+año publicación: 2009
+género: Superhéroe
+precio: 16.99
+stock: 30
+
+id: 4
+título: The Amazing Spider-Man: Un nuevo día
+autor: Dan Slott
+editorial: Marvel Comics
+año publicación: 2008
+género: Superhéroe
+precio: 19.99
+stock: 25
+
+id: 1
+título: The Boys
+autor: Garth Ennis
+editorial: Dynamite Entertainment
+año publicación: 2006
+género: Superhéroe
+precio: 14.99
+stock: 40
+
+id: 8
+título: Saga de Thanos
+autor: Jim Starlin
+editorial: Marvel Comics
+año publicación: 1991
+género: Superhéroe
+precio: 24.99
+stock: 20
+
+id: 5
+título: Batman: La broma asesina
+autor: Alan Moore
+editorial: DC Comics
+año publicación: 1988
+género: Superhéroe
+precio: 14.99
+stock: 30
+

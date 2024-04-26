@@ -1,0 +1,53 @@
+Proyecto Intermodular Marco Antonio Morenilla Alonso.
+
+Para que este programa funcione correctamente necesitamos:
+
+1.- Tener una conexión abierta con un SGBD tipo MySQL y una BBDD creada con tablas con información.
+
+
+2.- Cambiar en la clase DBController dentro del paquete controller, tanto nombre de usuario, como contraseña,
+    como nombre de la BBDD ajustando a usuario creado en el SGBD y BBDD creada.
+
+    La conexión se realiza sobre dirección localhost, que funciona para puerto 80 de Apache y 3306 de phpMyAdmin,
+    en caso tener configurado otros puertos hay que cambiar localhost por 127.0.0.1:3306 cambiando el 3306 por el puerto
+    configurado para phpMyAdmin.
+
+    Se deja por defecto usuario: root password: "" que funciona en entornos XAMPP.
+
+3.- Ubicar bien la ruta donde se coloca el proyecto ya que por defecto los archivos se crean con ruta relativa
+    a este.
+
+    En caso que queramos almacenar los documentos en otra parte del equipo, habría que ir método de exportación a
+    método de exportación cambiando la parte donde se declara el objeto File file con la ruta que deseamos seguido del
+    nombre del documento y la extensión.
+
+    Ejemplo:
+
+    static void exportTxt(Tienda tienda){
+    // Cambiamos comics.txt por C:\Users\User\Documents\comics.txt
+        File file = new File("comics.txt");
+    // Quedaría de la siguiente manera
+        File file = new File("C:\Users\User\Documents\comics.txt");
+        (...)
+    }
+
+    Dependiendo del SO que utilices puede cambiar la raíz del sistema así como la estructura de organización de directorios.
+
+Una vez ejecutemos el programa:
+
+1.- Nos dará a elegir un menú con 3 opciones de consultas, dependiendo qué consulta escojamos, nos irá pidiendo por 
+    consola datos para terminar de ajustar la consulta, debemos coger una opción obligatoriamente para avanzar.
+
+    Esto nos generará un String de consulta que conectará con la BBDD y realizará la consulta.
+
+    Como pasamos al SGBD un String no evaluamos los tipos de datos ya que son fijos, 
+    utilizamos la Clase Statement para realizar la consulta.
+
+2.- Una vez hemos decidido la consulta y decidido los datos, debemos seleccionar en qué formato 
+    queremos exportar los resultados a través de otro menú de opciones del que no saldremos hasta no obtener una respuesta correcta.
+
+    Una vez decidido el formato, el programa invocará al método que escribe el documento en ese formato con los datos de la consulta.
+
+    En caso que la consulta no produzca ningún resultado, por no haber registros en la BBDD en el documento se escribe un 
+    aviso que dice que la consulta no ha generado resultados que lo intentemos de nuevo.
+

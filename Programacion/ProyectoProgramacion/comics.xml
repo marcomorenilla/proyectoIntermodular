@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+	<nombre>Tu tienda del comic</nombre>
+		<comics>
+			<id>5</id>
+			<titulo>Batman: La broma asesina</titulo>
+			<autor>Alan Moore</autor>
+			<editorial>DC Comics</editorial>
+			<fecha_publicacion>1988</fecha_publicacion>
+			<genero>Superhéroe</genero>
+			<precio>14.99</precio>
+			<stock>30</stock>
+
+			<id>7</id>
+			<titulo>One Piece</titulo>
+			<autor>Eiichiro Oda</autor>
+			<editorial>Shueisha</editorial>
+			<fecha_publicacion>1997</fecha_publicacion>
+			<genero>Aventura</genero>
+			<precio>11.99</precio>
+			<stock>50</stock>
+
+			<id>8</id>
+			<titulo>Saga de Thanos</titulo>
+			<autor>Jim Starlin</autor>
+			<editorial>Marvel Comics</editorial>
+			<fecha_publicacion>1991</fecha_publicacion>
+			<genero>Superhéroe</genero>
+			<precio>24.99</precio>
+			<stock>20</stock>
+
+			<id>9</id>
+			<titulo>V de Vendetta</titulo>
+			<autor>Alan Moore</autor>
+			<editorial>Vertigo Comics</editorial>
+			<fecha_publicacion>1988</fecha_publicacion>
+			<genero>Distopía</genero>
+			<precio>16.99</precio>
+			<stock>40</stock>
+
+		</comics>
+</tienda>
