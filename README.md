@@ -34,7 +34,7 @@ La conexión a la BBDD se realiza a una copia de seguridad de la misma incluída
 
 Este proyecto es el primero que se integra dentro de un modelo de control de versiones y se puede consultar el historial en el repositorio específico dedicado a él 
 
-[elcallejondeelia](../elcallejondeelia)
+[elcallejondeelia](https://github.com/marcomorenilla/elcallejondeelia)
 
 ***
 
