@@ -1,5 +1,14 @@
-# proyectoIntermodular
- Proyecto primer curso DAM:
+# Proyecto Intermodular
+
+Proyecto primer curso DAM:
+
+ 
+En este repositorio se unen todas las asignaturas.
+
+Se puede ver la exposición en el siguiente enlace a vimeo (duración 49 minutos):
+
+[vídeo de exposición](https://vimeo.com/958584893)
+
 ***
 ## Programación:
 Este proyecto consiste en crear un programa en Java que se conecte a una BBDD, realice tres consultas y exporte los resultados a diferentes formatos:
@@ -36,7 +45,10 @@ Este proyecto es el primero que se integra dentro de un modelo de control de ver
 
 [elcallejondeelia](https://github.com/marcomorenilla/elcallejondeelia)
 
+### Enlace a web
+
+[web HTML](https://elcallejondeelia.vercel.app/)
+
 ***
 
-En este repositorio se incluye una centralización del proyecto.
 
