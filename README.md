@@ -37,17 +37,10 @@ Se adjunta archivo .sql y PDF con el trabajo presentado en el que se incuye diag
 
 En este proyecto se diseña una página web relacionada con la BBDD incluída en el proyecto de BBDD.
 
-Primero se hace la versión HTML y más adelante se incluye una versión dinámica con php.
+Primero se hace la versión HTML y más adelante se incluye una versión dinámica con PHP.
 
-La conexión a la BBDD se realiza a una copia de seguridad de la misma incluída en el proyecto BBDD llamada proyectointermodular porque al aprender php se observa que hay que modificarla y se irá modificando en desarrollo antes de subir a producción.
-
-Este proyecto es el primero que se integra dentro de un modelo de control de versiones y se puede consultar el historial en el repositorio específico dedicado a él 
-
-[elcallejondeelia](https://github.com/marcomorenilla/elcallejondeelia)
-
-### Enlace a web
-
-[web HTML](https://elcallejondeelia.vercel.app/)
+> [!note] 
+> - [web HTML](https://elcallejondeelia.vercel.app/)
 
 ***
 
